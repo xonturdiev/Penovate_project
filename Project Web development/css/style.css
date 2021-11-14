@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/*GENERAL STYLES*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', Calibri, sans-serif;
+    color: #212121;
+}
+
+h1, h2, h3, p, ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+/*PAGE HEADER STYLES*/
+
+.page-logo {
+    float: left;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 120px;
+}
+
+.page-nav__ul {
+    float: right;
+}
+
+.page-nav__li {
+    float: left;
+}
+
+.page-nav__link {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
+
+/*PAGE BANNER STYLES*/
+
+.page-banner {
+    height: 655px;
+    padding-top: 175px;
+    background-image: url("../img/bgimage.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+}
+
+.page-banner__title {
+    margin-bottom: 22px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: 3px;
+}
+
+.page-banner__description {
+    margin-bottom: 105px;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 1.1px;
+}
+
+.page-banner__links {
+    margin-bottom: 80px;
+    font-size: 0;
+}
+
+.page-banner__link {
+    display: inline-block;
+    width: 220px;
+    height: 70px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 3px solid #ffffff;
+}
+
+.blue-link {
+    background-color: #00897b;
+    border-color: #00897b;
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+.page-intro__down {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.page-section {
+    padding: 120px 0;
+    text-align: center;
+}
+
+.page-section__title {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+
+.page-section__description {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+    margin-bottom: 120px;
+}
+
+.about-us__card {
+    width: 370px;
+    float: left;
+}
+
+.about-us__card--title {
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-us__card--img {
+    margin-bottom: 35px;
+}
+
+.about-us__card--description {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.servic {
+    text-align: center;
+    width: 100%;
+    height: 1415px;
+    background-color: #e4fdf9;
+    padding-top: 30px;
+}
+
+.lorem {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -1290px;
+    padding-bottom: 115px;
+}
+
+.border {
+    display: inline-block;
+    border: 1px solid #00897b;
+    background-color: #00897b;
+    width: 340px;
+    height: 435px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+
+.huawei {
+    padding-left: 145px;
+    padding-top: 55px;
+
+}
+
+.happy {
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.birthday {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.september {
+    border: 3px solid white;
+    color: white;
+    margin-left: 110px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.border2 {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    width: 340px;
+    height: 435px;
+    margin-left: 115px;
+    margin-bottom: 20px;
+
+}
+
+.huawei2 {
+    padding-left: 145px;
+    padding-top: 55px;
+}
+
+.happy2 {
+    color: black;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.birthday2 {
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.september2 {
+    border: 3px solid black;
+    color: black;
+    margin-left: 110px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact-us {
+    background-image: url(../img/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.contact-us__infos {
+    padding: 0 70px;
+    margin-bottom: 80px;
+}
+
+.contact-us__info {
+    float: left;
+    width: 330px;
+}
+
+.contact-us__icon {
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #3949ab;
+    line-height: 105px;
+}
+
+.contact-us__icon img {
+    vertical-align: middle;
+}
+
+.contact-us__data {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.contact-us__data a {
+    display: block;
+    color: #ffffff;
+}
+
+.mr-20 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.contact-us__form {
+    padding: 0 70px;
+}
+
+input {
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 85px;
+    float: left;
+    padding: 20px;
+    font-size: 20;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+input::placeholder, textarea:placeholder {
+    font-size: 20;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #212121;
+}
+
+.name-email {
+    margin-bottom: 30px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 323px;
+    max-height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    resize: vertical;
+}
+
+.feedback {
+    margin-bottom: 30px;
+
+}
+
+.submit-btn {
+    background-color: #fff;
+    width: 220px;
+    float: right;
+}
+.page-footer {
+    height: 63px;
+    font-family: "Roboto";
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 63px;
+    text-align: center;
+}
